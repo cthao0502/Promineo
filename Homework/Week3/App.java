@@ -50,7 +50,7 @@ public class App {
 			System.out.println(allNames);
 		
 		// Q3: Access the last element of any array.
-			System.out.println("Use array[arr.length] to access the last element on any array.");
+			System.out.println("Use array[arr.length - 1] to access the last element on any array.");
 		
 		// Q4: Access the first element of any array.
 			System.out.println("Use array[0] to access the first element on any array");
