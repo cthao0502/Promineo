@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS trucks;
+
+USE trucks;
+
+DROP TABLE IF EXISTS trucks;
+
+CREATE TABLE trucks (
+	id int(11) NOT NULL AUTO_INCREMENT,
+    make VARCHAR(255) NOT NULL,
+    model VARCHAR(255) NOT NULL,
+    price DECIMAL(10,4) NOT NULL,
+    PRIMARY KEY(id)
+);
