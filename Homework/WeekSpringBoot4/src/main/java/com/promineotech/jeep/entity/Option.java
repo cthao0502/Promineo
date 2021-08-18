@@ -15,7 +15,6 @@ public class Option {
   private BigDecimal price;
   
   public OptionBuilder category(OptionType valueOf) {
-    // TODO Auto-generated method stub
     return null;
   } 
 }
